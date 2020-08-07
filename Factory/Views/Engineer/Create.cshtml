@@ -9,10 +9,10 @@
 @using (Html.BeginForm())
 {
   @Html.Label("Engineer Name: ")
-  @Html.TextBoxFor(model => model.EngineerName)
+  @Html.TextBoxFor(model => model.EngineerName, new { type = "text", required="required" })
 <hr />
   @Html.Label("Hire Date: ")
-  @Html.TextBoxFor(model => model.HireDate, new { type = "date"})
+  @Html.TextBoxFor(model => model.HireDate, new { type = "date", required="required" })
 <hr />
   @Html.Label("Available Machines: ")
   @Html.DropDownList("MachineId")

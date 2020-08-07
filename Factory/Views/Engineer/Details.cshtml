@@ -7,7 +7,7 @@
 <h1>@Model.EngineerName's Details</h1>
 
 <ul>
-  <li>Hire Date: @Model.HireDate</li>
+  <li>Hire Date: @Model.HireDate.ToString("D")</li>
   <li>Current Licenses: 
     @if(@Model.Machines.Count == 0)
     {

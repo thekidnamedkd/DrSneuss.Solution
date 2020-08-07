@@ -28,6 +28,11 @@ namespace Factory.Controllers
     [HttpPost]
     public ActionResult Create(Machine machine)
     {
+      var duplicateCheck = _db.MachineEngineer.FirstOrDefault(join=>join.MachineId==MachineId && join.EngineerId==engineer.EngineerId);
+      if (duplicateCheck != null)
+      {
+      return RedirectToAction("Details", new {id=engineer.EngineerId});
+      }
       _db.Machines.Add(machine);
       _db.SaveChanges();
       return RedirectToAction("Index");

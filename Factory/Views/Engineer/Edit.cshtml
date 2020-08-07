@@ -10,13 +10,13 @@
 {
   @Html.HiddenFor(model => model.EngineerId)
   
-  @Html.Label("Engineer Name ")
-  @Html.EditorFor(model => model.EngineerName)
+  @Html.Label("Engineer Name")
+  @Html.EditorFor(model => model.EngineerName, new { type = "text", required="required" })
 <hr />
-  @Html.Label("Hire Date ")
-  @Html.EditorFor(model => model.HireDate, new { type = "date"})
+  @Html.Label("Hire Date")
+  @Html.EditorFor(model => model.HireDate, new { type = "date", required="required" })
 <hr />
-  @Html.Label("Current Machines ")
+  @Html.Label("Current Machines")
   @Html.DropDownList("MachineId")
 <hr />
   <input type="submit" value="Save engineer changes" class="btn btn-default" />

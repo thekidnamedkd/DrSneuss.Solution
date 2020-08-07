@@ -9,11 +9,12 @@
 @using (Html.BeginForm())
 {
   @Html.Label("Machine Name: ")
-  @Html.TextBoxFor(model => model.MachineName)
+  @Html.TextBoxFor(model => model.MachineName, new { type = "text", required="required" })
   <hr />
   @Html.Label("Machine Product: ")
-  @Html.TextBoxFor(model => model.MachineProduct)
+  @Html.TextBoxFor(model => model.MachineProduct,  new { type = "text", required="required" })
   <hr />
+  
   <input type="submit" value="Add Machine" class="btn btn-default"/>
 }
 
