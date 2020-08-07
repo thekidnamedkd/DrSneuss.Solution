@@ -15,12 +15,6 @@
 /Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.TagHelpers.input.cache
 /Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.TagHelpers.output.cache
 /Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.RazorCoreGenerate.cache
-/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineers/AddMachine.cshtml.g.cs
-/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineers/Create.cshtml.g.cs
-/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineers/Delete.cshtml.g.cs
-/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineers/Details.cshtml.g.cs
-/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineers/Edit.cshtml.g.cs
-/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineers/Index.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.RazorTargetAssemblyInfo.cache
 /Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.RazorTargetAssemblyInfo.cs
@@ -30,3 +24,9 @@
 /Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.genruntimeconfig.cache
 /Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.csproj.CopyComplete
 /Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineer/AddMachine.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineer/Create.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineer/Delete.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineer/Details.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineer/Edit.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Razor/Views/Engineer/Index.cshtml.g.cs
