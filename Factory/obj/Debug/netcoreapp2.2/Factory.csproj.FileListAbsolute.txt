@@ -1,0 +1,16 @@
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/bin/Debug/netcoreapp2.2/Factory.deps.json
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/bin/Debug/netcoreapp2.2/Factory.runtimeconfig.json
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/bin/Debug/netcoreapp2.2/Factory.runtimeconfig.dev.json
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/bin/Debug/netcoreapp2.2/Factory.dll
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/bin/Debug/netcoreapp2.2/Factory.pdb
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.csprojAssemblyReference.cache
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.AssemblyInfoInputs.cache
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.AssemblyInfo.cs
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.csproj.CoreCompileInputs.cache
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.RazorAssemblyInfo.cache
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.RazorAssemblyInfo.cs
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.RazorTargetAssemblyInfo.cache
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.dll
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.pdb
+/Users/thekidnamedkd/Desktop/DrSneuss.Solution/Factory/obj/Debug/netcoreapp2.2/Factory.genruntimeconfig.cache
