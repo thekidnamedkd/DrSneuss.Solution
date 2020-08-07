@@ -4,6 +4,6 @@
 
 <h1>Welcome to the wonderful, wild factory of Dr. Sneuss</h1>
 <hr />
-<p>@Html.ActionLink("See all engineers", "Index", "Engineer")</p>
+<button class="btn btn-warning btn-md" onclick="location.href='@Url.Action("Index", "Engineer")'">View current engineers</button>
 <br>
 <button class="btn btn-warning btn-md" onclick="location.href='@Url.Action("Index", "Machine")'">View current machines</button>
