@@ -10,7 +10,7 @@ namespace Factory.Models
     }
     public int MachineId { get; set; }
     public string MachineName { get; set; }
-    public int MachineProduct { get; set; }
+    public string MachineProduct { get; set; }
     public virtual ICollection<MachineEngineer> Engineers { get; set; }
   }
 }

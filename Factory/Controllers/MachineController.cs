@@ -20,6 +20,10 @@ namespace Factory.Controllers
       List<Machine> model = _db.Machines.ToList();
       return View(model);
     }
+    public ActionResult Create()
+    {
+      return View();
+    }
 
     [HttpPost]
     public ActionResult Create(Machine machine)
