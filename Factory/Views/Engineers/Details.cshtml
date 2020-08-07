@@ -1,0 +1,27 @@
+@{
+  Layout = "_Layout";
+}
+
+@model Factory.Models.Engineer
+
+<h1>@Model.EngineerName's Details</h1>
+
+<ul>
+  <li>Hire Date: @Model.HireDate</li>
+  <li>Current Licenses: 
+    @if(@Model.Machines.Count == 0)
+    {
+      <p>This engineer does not have any licenses on file.</p>
+    }
+    <ul>
+    @foreach (var join in Model.Machines)
+    {
+      <li>@Html.ActionLink(join.Machine.MachineName, "Details", "Machine", new { id = join.Machine.MachineId })</li>
+    }
+    </ul>
+  </li>
+</ul>
+<p>@Html.ActionLink("Add Machine", "AddMachine", new { id = Model.EngineerId })</p>
+<p>@Html.ActionLink("Delete", "Delete", new { id = Model.EngineerId })</p>
+<p>@Html.ActionLink("Edit", "Edit", new { id = Model.EngineerId })</p>
+<p>@Html.ActionLink("Return Home", "Index", "Home")</p>

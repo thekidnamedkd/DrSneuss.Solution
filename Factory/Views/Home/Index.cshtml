@@ -1,0 +1,9 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Welcome to the wonderful, wild factory of Dr. Sneuss</h1>
+<hr />
+<p>@Html.ActionLink("See all engineers", "Index", "Engineers")</p>
+<br>
+<button class="btn btn-warning btn-md" onclick="location.href='@Url.Action("Index", "Machines")'">View current machines</button>

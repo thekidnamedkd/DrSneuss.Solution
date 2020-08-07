@@ -1,0 +1,25 @@
+@{
+  Layout = "_Layout";
+}
+
+<h2>Edit engineer profile</h2>
+
+@model Factory.Models.Engineer
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(model => model.EngineerId)
+  
+  @Html.Label("Engineer Name ")
+  @Html.EditorFor(model => model.EngineerName)
+<hr />
+  @Html.Label("Hire Date ")
+  @Html.EditorFor(model => model.HireDate, new { type = "date"})
+<hr />
+  @Html.Label("Current Machines ")
+  @Html.DropDownList("MachineId")
+<hr />
+  <input type="submit" value="Save engineer changes" class="btn btn-default" />
+}
+
+<p>@Html.ActionLink("Return Home", "Index", "Home")</p>
