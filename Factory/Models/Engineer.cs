@@ -12,6 +12,5 @@ namespace Factory.Models
     public string EngineerName { get; set; }
     public System.DateTime HireDate { get; set; }
     public ICollection<MachineEngineer> Machines{ get; set; }
-
   }
 }

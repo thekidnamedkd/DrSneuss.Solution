@@ -21,21 +21,16 @@ namespace Factory.Controllers
     public ActionResult Create()
     {
       ViewBag.MachineId = new SelectList(_db.Machines, "MachineId", "MachineName");
-      ViewBag.DepartmentId = new SelectList(_db.Departments, "DepartmentId", "DepartmentName");
       return View();
     }
 
     [HttpPost]
-    public ActionResult Create(Engineer engineer, int MachineId, int DepartmentId)
+    public ActionResult Create(Engineer engineer, int MachineId)
     {
       _db.Engineers.Add(engineer);
       if (MachineId != 0)
       {
         _db.MachineEngineer.Add(new MachineEngineer() { MachineId = MachineId, EngineerId = engineer.EngineerId });
-      }
-      if (DepartmentId != 0)
-      {
-        _db.DepartmentEngineer.Add(new DepartmentEngineer() { DepartmentId = DepartmentId, EngineerId = engineer.EngineerId });
       }
       _db.SaveChanges();
       return RedirectToAction("Index");
