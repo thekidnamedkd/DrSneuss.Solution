@@ -53,11 +53,6 @@ namespace Factory.Controllers
     [HttpPost]
     public ActionResult AddMachine(Engineer engineer, int MachineId)
     {
-      // var duplicateCheck = _db.MachineEngineer.FirstOrDefault(join=>join.MachineId==MachineId && join.EngineerId==engineer.EngineerId);
-      // if (duplicateCheck != null)
-      // {
-      // return RedirectToAction("Details", new {id=engineer.EngineerId});
-      // }
       if (MachineId != 0)
       {
         _db.MachineEngineer.Add(new MachineEngineer() {  MachineId = MachineId, EngineerId = engineer.EngineerId});
