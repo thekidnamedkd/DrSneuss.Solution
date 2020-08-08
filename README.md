@@ -6,7 +6,7 @@
 
 ## Description
 
-_An MVC application in C# for Dr. Sneuss' wild, wonderful factory using ASP/.NET and an SQL Database constructed and managed by Entity. It will keep track of the factory's many buzzing machines and the many engineers who are able to work on those machines demonstrating a many-to-many relationship between these objects.
+_An MVC application in C# for Dr. Sneuss' wild, wonderful factory using ASP/.NET and an SQL Database constructed and managed by Entity. It will keep track of the factory's many buzzing machines and the many engineers who are able to work on those machines demonstrating a many-to-many relationship between these objects._
 
 ### Specs
 | Spec | Input | Output | Done? |
@@ -38,8 +38,8 @@ _An MVC application in C# for Dr. Sneuss' wild, wonderful factory using ASP/.NET
 
 ## Known Bugs
 
-*_Errors will occur if field is left blank in either Edit view and submitted._
-*_Duplicate Machines and Engineers can be added to their respective Index view._
+* _Errors will occur if field is left blank in either Edit view and submitted._
+* _Duplicate Machines and Engineers can be added to their respective Index view._
 
 ## Support and contact details
 
